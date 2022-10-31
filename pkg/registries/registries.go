@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/containers/image/v5/pkg/sysregistriesv2"
-	apioperatorsv1alpha1 "github.com/openshift/api/operator/v1alpha1"
+	apioperatorsv1alpha1 "github.com/uccps-samples/api/operator/v1alpha1"
 )
 
 // scopeIsNestedInsideScope returns true if a subScope value (as in sysregistriesv2.Registry.Prefix / sysregistriesv2.Endpoint.Location)
